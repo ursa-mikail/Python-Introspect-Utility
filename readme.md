@@ -55,6 +55,32 @@ def example_function(name: str) -> None:
     print(f"Hello, {name}!")
 
 ```
+
+```
+"""
+Menu:
+1. Display all fields
+2. Choose specific fields to display
+3. Exit
+Enter your choice: 2
+Available fields to display:
+1. description
+2. author
+3. version
+4. functions
+Enter the numbers of the fields you want to display, separated by commas (e.g., 1,2): 1
+{
+    "description": "This module provides an example function."
+}
+
+Menu:
+1. Display all fields
+2. Choose specific fields to display
+3. Exit
+Enter your choice: 3
+"""
+```
+
 ## Pros and Cons
 ### Pros:
 Highly Customizable: Tailor the introspection process to fit specific metadata needs, including additional fields or custom formatting.
