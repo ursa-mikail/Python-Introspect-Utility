@@ -109,7 +109,7 @@ For simple documentation, tools like pydoc or pdoc are choices. For customized a
 You can use a hybrid approach: generate standard documentation with tools like Sphinx and supplement it with custom scripts like introspect.py for specific tasks.
 
 Introspect.py can be extended with:
-1.Auto-document with Cross-referencing and Indexing.
-2.Version Control Integration (e.g. linking with git references)
-3.Search Functionality: In-built-in search functionality on both code and generated documentation.
+    1.Auto-document with Cross-referencing and Indexing.
+    2.Version Control Integration (e.g. linking with git references)
+    3.Search Functionality: In-built-in search functionality on both code and generated documentation.
 
